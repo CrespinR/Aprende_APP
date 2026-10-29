@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "573515545705",
+    "project_id": "desafio3-193e5",
+    "storage_bucket": "desafio3-193e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573515545705:android:0f8c08313b4751db6bb6f8",
+        "android_client_info": {
+          "package_name": "com.example.aprendeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJN-E_8zvek8_g2fFXkoO9Bbbfz9PKhIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573515545705:android:845e34276c2f08926bb6f8",
+        "android_client_info": {
+          "package_name": "com.example.desafio3_dsm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJN-E_8zvek8_g2fFXkoO9Bbbfz9PKhIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573515545705:android:543dd091019b9d7f6bb6f8",
+        "android_client_info": {
+          "package_name": "com.example.desafio_dsm3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJN-E_8zvek8_g2fFXkoO9Bbbfz9PKhIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573515545705:android:2774a8ada8dc6d3f6bb6f8",
+        "android_client_info": {
+          "package_name": "com.example.dsm_desafio3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJN-E_8zvek8_g2fFXkoO9Bbbfz9PKhIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573515545705:android:e4c05a0cb3f177fa6bb6f8",
+        "android_client_info": {
+          "package_name": "com.udb.aprendeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJN-E_8zvek8_g2fFXkoO9Bbbfz9PKhIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

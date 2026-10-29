@@ -2,4 +2,35 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Material Palette -->
+    <color name="primary">#1E88E5</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="secondary">#00ACC1</color>
+    <color name="accent">#FF9800</color>
+
+    <color name="background_light">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1A202C</color>
+    <color name="text_secondary">#718096</color>
+    <color name="border_color">#E2E8F0</color>
+
+    <color name="star_active">#FFC107</color>
+    <color name="favorite_active">#E53935</color>
+    <color name="favorite_inactive">#90A4AE</color>
+    <color name="error_color">#D32F2F</color>
+
+    <!-- Tag Colors -->
+    <color name="tag_libro_bg">#E3F2FD</color>
+    <color name="tag_libro_text">#0D47A1</color>
+
+    <color name="tag_video_bg">#FFEBEE</color>
+    <color name="tag_video_text">#B71C1C</color>
+
+    <color name="tag_articulo_bg">#E8F5E9</color>
+    <color name="tag_articulo_text">#1B5E20</color>
+
+    <color name="tag_tutorial_bg">#FFF8E1</color>
+    <color name="tag_tutorial_text">#F57F17</color>
 </resources>

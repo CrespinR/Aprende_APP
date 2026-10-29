@@ -1,3 +1,104 @@
 <resources>
     <string name="app_name">AprendeApp</string>
+    <string name="slogan_app">Recursos de Ingeniería de Sistemas</string>
+
+    <!-- General -->
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="cargando">Cargando...</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="error_desconocido">Ha ocurrido un error inesperado</string>
+    <string name="campo_requerido">Este campo es obligatorio</string>
+
+    <!-- Autenticación / Login / Registro -->
+    <string name="titulo_login">Iniciar Sesión</string>
+    <string name="subtitulo_login">Accede a tu plataforma educativa</string>
+    <string name="titulo_registro">Crear Cuenta</string>
+    <string name="subtitulo_registro">Crea tu cuenta en AprendeApp</string>
+    <string name="correo_label">Correo electrónico</string>
+    <string name="contrasena_label">Contraseña</string>
+    <string name="confirmar_contrasena_label">Confirmar contraseña</string>
+    <string name="nombre_label">Nombre completo</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="link_registrarse">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="link_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="link_olvide_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="msg_bienvenido">¡Bienvenido a AprendeApp!</string>
+    <string name="msg_registro_exitoso">Usuario registrado exitosamente</string>
+
+    <!-- Errores de Validación Auth -->
+    <string name="err_correo_vacio">Ingrese su correo electrónico</string>
+    <string name="err_correo_invalido">Formato de correo electrónico no válido</string>
+    <string name="err_contrasena_vacia">Ingrese su contraseña</string>
+    <string name="err_nombre_vacio">Ingrese su nombre completo</string>
+    <string name="err_contrasenas_no_coinciden">Las contraseñas no coinciden</string>
+
+    <!-- Recuperación Contraseña -->
+    <string name="titulo_recuperar">Recuperar Contraseña</string>
+    <string name="msg_recuperar">Ingrese su correo para enviarle un enlace de restablecimiento.</string>
+    <string name="btn_enviar_recuperacion">Enviar correo</string>
+
+    <!-- Pantalla Principal / MainActivity -->
+    <string name="saludo_hola">Hola, %1$s</string>
+    <string name="rol_estudiante">Rol: Estudiante</string>
+    <string name="rol_docente">Rol: Docente</string>
+    <string name="buscar_hint">Buscar por ID, título o tipo...</string>
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_libro">Libro</string>
+    <string name="filtro_video">Video</string>
+    <string name="filtro_articulo">Artículo</string>
+    <string name="filtro_tutorial">Tutorial</string>
+    <string name="orden_asc">Título A-Z</string>
+    <string name="orden_desc">Título Z-A</string>
+    <string name="sin_resultados">No se encontraron recursos educativos</string>
+    <string name="error_cargar_recursos">Error al cargar el catálogo de recursos</string>
+
+    <!-- Tarjeta y Detalles de Recurso -->
+    <string name="ver_detalles">Ver detalles</string>
+    <string name="abrir_enlace">Abrir recurso</string>
+    <string name="calificar">Calificar recurso</string>
+    <string name="tu_calificacion">Tu calificación</string>
+    <string name="promedio_rating">Promedio: %1$.1f (%2$d votos)</string>
+    <string name="sin_calificaciones">Sin calificaciones aún</string>
+    <string name="fecha_creacion">Fecha de publicación: %1$s</string>
+    <string name="tipo_etiqueta">Tipo: %1$s</string>
+    <string name="favorito_agregado">Agregado a favoritos</string>
+    <string name="favorito_eliminado">Eliminado de favoritos</string>
+    <string name="calificacion_exitosa">Calificación guardada correctamente</string>
+    <string name="calificacion_error">Error al guardar la calificación</string>
+
+    <!-- Admin / CRUD -->
+    <string name="titulo_admin_recursos">Administración de Catálogo</string>
+    <string name="subtitulo_admin">Gestión de contenidos educativos (Docentes)</string>
+    <string name="btn_nuevo_recurso">Agregar Recurso</string>
+    <string name="titulo_crear_recurso">Nuevo Recurso Educativo</string>
+    <string name="titulo_editar_recurso">Editar Recurso Educativo</string>
+    <string name="campo_titulo">Título del recurso</string>
+    <string name="campo_descripcion">Descripción</string>
+    <string name="campo_tipo">Tipo de recurso</string>
+    <string name="campo_enlace">Enlace URL</string>
+    <string name="campo_imagen_url">URL de la imagen</string>
+    <string name="confirmacion_eliminar_titulo">¿Eliminar recurso?</string>
+    <string name="confirmacion_eliminar_msg">Esta acción no se puede deshacer. ¿Deseas eliminar este recurso?</string>
+    <string name="recurso_creado_exito">Recurso creado exitosamente</string>
+    <string name="recurso_actualizado_exito">Recurso actualizado exitosamente</string>
+    <string name="recurso_eliminado_exito">Recurso eliminado exitosamente</string>
+
+    <!-- Favoritos -->
+    <string name="titulo_favoritos">Mis Favoritos</string>
+    <string name="sin_favoritos_msg">No tienes recursos guardados en favoritos</string>
+
+    <!-- Perfil -->
+    <string name="titulo_perfil">Perfil de Usuario</string>
+    <string name="info_usuario">Información Personal</string>
+    <string name="email_label">Correo:</string>
+    <string name="rol_label">Rol actual:</string>
+    <string name="uid_label">ID Firebase:</string>
+    <string name="nota_favoritos_local">Los favoritos se guardan localmente en este dispositivo mediante Room.</string>
+    <string name="nota_roles">Nota: Los permisos administrativos requieren validación del servidor.</string>
 </resources>
