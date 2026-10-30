@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
-    id("kotlin-kapt")
 }
 
 android {
@@ -61,7 +60,7 @@ dependencies {
     // Room
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
-    kapt(libs.room.compiler)
+    annotationProcessor(libs.room.compiler)
 
     // Image loading
     implementation(libs.coil)
