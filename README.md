@@ -137,36 +137,4 @@ Los favoritos se almacenan en la base de datos local SQLite mediante **Room**:
 2. **Validación de Permisos:** La restricción del rol Docente en esta app es demostrativa en el cliente Android. En un entorno de producción real, el servidor backend debe validar el token de Firebase Authentication antes de permitir operaciones `POST`, `PUT` o `DELETE`.
 3. **Sincronización de Favoritos:** La base de datos Room es local por dispositivo; cerrar sesión no borra la BD, pero la sesión activa aísla las vistas por el `UID` del usuario actual.
 
----
 
-## 🚀 Pasos Manuales para Compilar y Ejecutar
-
-Dado que las compilaciones automáticas han sido omitidas según los requerimientos:
-
-1. Abre el proyecto **AprendeApp** en Android Studio.
-2. Realiza un **Gradle Sync** (`File -> Sync Project with Gradle Files`).
-3. Asegúrate de tener conexión a Internet habilitada.
-4. Selecciona un emulador Android (API 24 o superior) o un dispositivo físico.
-5. Ejecuta la aplicación presionando **Run 'app'** (`Shift + F10`).
-
----
-
-## 📝 Propuesta de Commits en Español
-
-A continuación se presenta la lista de 15 commits sugeridos para el control de versiones Git:
-
-1. `Agregar configuracion inicial del proyecto y estructura MVC`
-2. `Configurar dependencias en Gradle libs versions toml`
-3. `Configurar conexion con MockAPI utilizando Retrofit y Gson`
-4. `Implementar modelos de datos Recurso Calificacion y Usuario`
-5. `Implementar autenticacion Firebase con registro e inicio de sesion`
-6. `Agregar validador de contraseñas seguras de 12 caracteres`
-7. `Crear base de datos local Room para gestion de favoritos`
-8. `Implementar catalogo principal con RecyclerView y tarjetas Material Design`
-9. `Agregar busqueda interactiva por ID titulo y tipo`
-10. `Implementar filtros por tipo de recurso y ordenamiento alfabético`
-11. `Crear pantalla de detalles de recurso y apertura de enlaces seguros`
-12. `Implementar sistema de calificaciones compartidas en MockAPI`
-13. `Crear panel de administracion docente con operaciones CRUD`
-14. `Implementar pantalla de perfil de usuario y cierre de sesion`
-15. `Actualizar documentacion README con guia de arquitectura y ejecucion`
