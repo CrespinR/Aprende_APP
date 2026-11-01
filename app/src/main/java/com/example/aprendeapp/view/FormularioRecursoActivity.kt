@@ -41,7 +41,11 @@ class FormularioRecursoActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         @Suppress("DEPRECATION")
-        recursoEditar = intent.getSerializableExtra(Constants.EXTRA_RECURSO_EDIT) as? Recurso
+        recursoEditar = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+            intent.getSerializableExtra(Constants.EXTRA_RECURSO_EDIT, Recurso::class.java)
+        } else {
+            intent.getSerializableExtra(Constants.EXTRA_RECURSO_EDIT) as? Recurso
+        }
         esModoEdicion = recursoEditar != null
 
         configurarDropdownTipos()
