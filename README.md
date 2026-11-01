@@ -1,7 +1,9 @@
 # AprendeApp 📚🚀
 
-**AprendeApp** es una aplicación móvil desarrollada para la gestión de recursos educativos de Ingeniería de Sistemas (Libros, Videos, Artículos y Tutoriales), correspondiente al **Tercer Desafío Práctico de Desarrollo de Software para Móviles (DSM)** de la **Universidad Don Bosco**.
+**AprendeApp** es una aplicación móvil desarrollada para la gestión de recursos educativos de Ingeniería de Sistemas (Libros, Videos, Artículos y Tutoriales), correspondiente al Tercer Desafío Práctico de Desarrollo de Software para Móviles (DSM)
 
+
+LINK del video: https://drive.google.com/drive/folders/1RZvUyQWC6Iw7KS_ZcbZLTnTsZMZg4UF0?usp=sharing
 ---
 
 ## 🛠️ Tecnologías Utilizadas
